@@ -1,0 +1,33 @@
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  background: url(../images/header-bg@2x.png) repeat-y;
+  background-size: 100% auto;
+}
+header .top-header {
+  background: url(../images/bg-top-bar-large.png) no-repeat 50% 0;
+}
+header .top-header a {
+  display: inline-block;
+  line-height: 40px;
+  font-size: 13px;
+  color: #999999;
+  font-weight: 600;
+}
+header .top-header a span {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+header .top-header a img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 26px;
+}
+header .bottom-header #logo {
+  display: inline-block;
+  margin: -10px 0 0 10px;
+}
+header .bottom-header #logo img {
+  max-width: 141px;
+}
